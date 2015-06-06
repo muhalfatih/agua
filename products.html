@@ -3,12 +3,14 @@
 <head>
 	<title>AGUA | Products</title>
 	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=460, initial-scale=.7"/>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="jquery/2.1.4/jquery.js"></script>
+	<script src="jquery/1.11.3/jquery.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
-	<metaname="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/smoothscroll.js"></script>
 </head>
 <body>
 
@@ -47,47 +49,45 @@
 	<!-- HEADER Section -->
 
 	<div class="container">
-		<h1><strong>PRODUCTS</strong></h1>
-		<div class="section-title-bottom">
-			<span class="section-title-bottom-inner blue-border"></span>
+		<div class="row">
+			<h1><strong>PRODUCTS</strong></h1>
+			<div class="section-title-bottom">
+				<span class="section-title-bottom-inner blue-border"></span>
+			</div>
+			<div class="container text-center">
+				<img class="img-bottles" src="images/bottles.png" alt="bottles">
+			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-4"></div>
-			<div class="col-md-4">
-			<img class="img-responsive" src="images/bottles.png">
-			</div>
-			<div class="col-md-4"></div>
-		</div>
-		<div class="row" center>
-			<div class="col-md-2"></div>
-			<div class="col-md-8 text-left">
-			AGUA comes from selected water springs which represent some of the
-best natural water springs in Indonesia. AGUA hygienically packaged
-into different sizes of plastic bottle; 330 ml, 600 ml, 750 ml and
-1500 ml. AGUA also package in 240 ml plastic glass which can support
-various activities and obviate dehydrations.<br/>
-<br/>
-AGUA dedicate Indonesian healthy families all the goodness of nature in its every drop.<br/>
+			<div class="container text-left">
+				<p class="text-left">
+					AGUA comes from selected water springs which represent some of the
+					best natural water springs in Indonesia. AGUA hygienically packaged
+					into different sizes of plastic bottle; 330 ml, 600 ml, 750 ml and
+					1500 ml. AGUA also package in 240 ml plastic glass which can support
+					various activities and obviate dehydrations.<br/>
+					<br/>
+					AGUA dedicate Indonesian healthy families all the goodness of nature in its every drop.<br/>
 
-We also is commercializing cutting-edge technology to recover the minerals discharged in wastewater from brackish water desalination plants. Utilizing proven, commercially available technologies in unique and innovative configurations, AGUA chemically separates the wastewater into high-purity, industrial-grade mineral products that are highly valued in commercial markets. All contaminants are extracted from the wastewater stream, leaving only potable water and thereby alleviating the desalination plant’s wastewater discharge and its associated environmental hazards. 
+					We also is commercializing cutting-edge technology to recover the minerals discharged in wastewater from brackish water desalination plants. Utilizing proven, commercially available technologies in unique and innovative configurations, AGUA chemically separates the wastewater into high-purity, industrial-grade mineral products that are highly valued in commercial markets. All contaminants are extracted from the wastewater stream, leaving only potable water and thereby alleviating the desalination plant’s wastewater discharge and its associated environmental hazards. 
 
-More specifically, AGUA’s technology recovers minerals and desalinated water from waste brine discharged from brackish water reverse osmosis (BWRO) plants using patent-pending integrations of the following technologies: <br /> <br /> 
-<ul>
-	<li><strong> Modern brine treatment processes: stripping, electrodialysis, nanofiltration, biological selenium removal</strong></li>
-	<li><strong> Modern mineral recovery processes: mechanical vapor recompression crystallizers, vacuum crystallizers, hydrometallurgical leaching</strong></li>
-	<li><strong> High efficiency combined heat and power natural gas engines</strong></li>
-</ul> <br />
-Rather than pump waste brine underground or send it to a disposal evaporation pond, a brackish water desalination plant can have its waste brine processed by AGUA. AGUA separates the waste brine into high-purity, industrial-grade minerals, thereby eliminating the plant’s environmental liability. The illustration below demonstrates the flow of brackish water from the water well to its end uses. 
+					More specifically, AGUA’s technology recovers minerals and desalinated water from waste brine discharged from brackish water reverse osmosis (BWRO) plants using patent-pending integrations of the following technologies: <br /> <br /> 
+					<ul>
+						<li><strong> Modern brine treatment processes: stripping, electrodialysis, nanofiltration, biological selenium removal</strong></li>
+						<li><strong> Modern mineral recovery processes: mechanical vapor recompression crystallizers, vacuum crystallizers, hydrometallurgical leaching</strong></li>
+						<li><strong> High efficiency combined heat and power natural gas engines</strong></li>
+					</ul> <br />
+					Rather than pump waste brine underground or send it to a disposal evaporation pond, a brackish water desalination plant can have its waste brine processed by AGUA. AGUA separates the waste brine into high-purity, industrial-grade minerals, thereby eliminating the plant’s environmental liability. The illustration below demonstrates the flow of brackish water from the water well to its end uses. 
+				</p>
 			</div>
-			<div class="col-md-2"></div>
 		</div>
 	</div>
 
 	<!-- FOOTER Section -->
 
 	<footer class="footer">
-		<div class="container">
-			<div class="row footer-up">
+		<div class="footer-up">
+			<div class="container">
 				<div class="col-md-3">
 					<h1 class="footer-title">
 						AGUA
@@ -111,7 +111,7 @@ Rather than pump waste brine underground or send it to a disposal evaporation po
 				<div class="col-md-3 text-left sidebar">
 					<div class="sidebar-title"><h3 class="title">LATEST TWEET</h3></div>
 				</div>
-				<div class="col-md-3 text-right sidebar">
+				<div class="col-md-3 text-right sidebar contact-detail">
 					<div class="row">
 						<i class="fa fa-map-marker"></i>
 						<address>
@@ -132,8 +132,8 @@ Rather than pump waste brine underground or send it to a disposal evaporation po
 		</div>
 	</footer>
 		<div class="container footer-bottom">
-			<div class="col-md-8 pull-left text-left copyright">Copyright &copy; by AGUA Water Mineral, All Rights Reserved.</div>
-			<div class="pull-right text-right">
+			<div class="col-md-7 col-xs-12 pull-left copyright">Copyright &copy; by <a href="#">AGUA Water Mineral</a>, All Rights Reserved.</div>
+			<div class="col-md-5 col-xs-12 pull-right media-social">
 				<ul class="social">
           <li><a href="#" class="icon tw"><i class="fa fa-twitter"></i></a></li>
           <li><a href="#" class="icon fb"><i class="fa fa-facebook"></i></a></li>
@@ -141,9 +141,7 @@ Rather than pump waste brine underground or send it to a disposal evaporation po
           <li><a href="#" class="icon go"><i class="fa fa-google-plus"></i></a></li>
         </ul>
 			</div>
-		</div>	
-
-	<!-- FOOTER Section -->
+		</div>
 
 </body>
 </html>
