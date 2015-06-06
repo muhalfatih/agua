@@ -1,0 +1,484 @@
+/****************************** Set the Navbar Centered (Start) ******************************/
+@media (min-width: 768px){
+    .navbar-home{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+}
+/****************************** Set the Navbar Centered (End) ******************************/
+
+/****************************** Set the Logo Centered (Start) ******************************/
+.header-home {
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+		margin-left: 0!important;
+}
+
+@media (min-width: 768px) {
+	.header-brand {float:none;}
+}
+
+/****************************** Set the Logo Centered (End) ******************************/
+
+/****************************** Google Fonts (Start) ******************************/
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:600,700,400,300);
+
+/****************************** Google Fonts (End) ******************************/
+
+body {
+
+	min-width:460px; 
+
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: #666666;
+	-webkit-font-smoothing: antialiased;
+}
+
+small {
+	font-size: 120%;
+}
+
+@media (min-width: 768px){
+    .wrapper {
+        height: 600px;
+        padding-top: 165px;
+    }
+}
+
+.navbar {
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.img-profile {
+	text-align: center;
+	height: 120px;
+	width: 120px;
+}
+
+.wrapper {
+	background: url(../images/header3.jpg) no-repeat top fixed;
+}
+
+.wrap-center {
+	vertical-align: middle;
+}
+
+@media (min-width: 768px){
+	h1 {
+		margin-bottom: 0;
+	}
+}
+
+@media (max-width: 768px){
+	h1 {
+		margin-top: -10px;
+	}
+}
+h2 {
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: 700;
+}
+
+h3 {
+	font-weight: 700;
+}
+
+.title {
+	text-align: left;
+	font-weight: bolder;
+}
+
+.count-number {
+	font-size: 60px;
+	font-weight: bolder;
+}
+
+.count-desc {
+	font-size: 25px;
+}
+
+/****************************** Line Below Section (Start) ******************************/
+
+.section-title-bottom{
+	width: 460px;
+	height: 15px;
+	margin: 20px auto;
+	position: relative;
+}
+
+.section-title-bottom:after,
+.section-title-bottom:before{
+	border-top: 1px solid #d7d7d7;
+	content: "";
+	position: absolute;
+	width:210px;
+	top:50%;
+}
+
+.section-title-bottom:before{
+	left: 0;
+}
+
+.section-title-bottom:after{
+	right: 0;
+}
+
+.section-title-bottom-inner{
+	border: 1px solid #d7d7d7;
+	border-radius: 100%;
+	display: block;
+	height: 15px;
+	margin: 0 auto;
+	width: 15px;
+	position: relative;
+}
+.blue-border{
+	border: 1px solid #3498db;
+}
+
+.section-title-bottom-inner:before,
+.section-title-bottom-inner:after{
+	position: absolute;
+	content: "";
+	width: 6px;
+	height: 6px;
+	top: 50%;
+	margin-top: -3px;
+	border-radius: 100%;
+	border: 1px solid #d7d7d7;
+}
+
+.section-title-bottom-inner:before{
+	left: -14px;
+}
+
+.section-title-bottom-inner:after{
+	right: -14px;
+}
+
+/****************************** Line Below Section (End) ******************************/
+
+/****************************** Button Styles (Start) ******************************/
+
+.read-more,.read-more:hover,
+.custom-btn:hover{
+	color: #FFF;
+}
+
+.read-more{
+	border: 1px solid #fff;
+	font-size:1em;
+	margin: 5px 10px;
+	padding: 0;
+	text-transform: uppercase;
+	width: 170px;
+}
+
+.custom-btn {
+	background-color: #fff;
+	border: 1px solid;
+	border-color: #e5e5e5;
+	color: #3498db;
+	min-width: 100px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding: 0 20px;
+}
+
+.read-more,
+.custom-btn{
+	font-weight: 700;
+	height: 50px;
+	line-height: 49px
+}
+
+.read-more:hover,
+.custom-btn:hover{
+	background-color: #3498db;
+}
+
+.btn{
+	border-radius: 0;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.read-more{
+	margin-top: 25px;	
+	font-weight: bolder;
+  font-size: 18px;
+	border-color: #3498db;
+	color: #1a1a1a;
+}
+
+.read-more:hover{
+	color: #fff;
+}
+
+/****************************** Button Styles (End) ******************************/
+
+.p-desc {
+	font-size: 1.25em;
+  letter-spacing: 1px;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke: 0.2px;
+}
+
+.row {
+	margin-top: 30px;
+}
+
+.grey {
+	background-color: #E2E2E2;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.mar-bot {
+	margin-top: 15px;
+}
+
+.p-center {
+	text-align: center
+}
+
+#maps {
+      height: 300px;
+}
+
+.img-bottles {
+	height: 330px;
+	width: 400px;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.footer-bottom {
+	margin-top: 0;
+}
+
+/****************************** News Latter Input Style (Start) ******************************/
+
+.sidebar-title{
+	margin: 30px 0 20px 0;
+	padding-right: 20px;
+	position: relative;
+	z-index: 1;
+}
+
+.sidebar-title:after{
+	border-top:1px solid #FFF;
+	content: "";
+	position: absolute;
+	width: 100%;
+	top:50%;
+	left: 0;
+	z-index: -1;
+}
+
+.sidebar-title .title{
+	background-color: #292929;
+	color: #FFF;
+	display: inline-block;
+	font-size: 1.55em;
+	font-weight: 800;
+	margin: 0;
+	padding: 0 25px 0 0;
+	position: relative;
+	text-transform: uppercase;
+}
+
+.sidebar-title .title:after{
+	border:1px solid #FFF;
+	border-radius: 100%;
+	content: "";
+	position: absolute;
+	top:50%;
+	right: -1px;
+	width: 6px;
+	height: 6px;
+	margin-top: -1.75px;
+}
+
+
+
+.news-later{
+	position: relative;
+	height: 40px;
+	padding-right: 42px;
+	margin: 30px 0;
+}
+
+.sidebar input,
+.sidebar button{
+	position: absolute;
+	border-radius: 0;
+	border: 1px solid #CDCAFF;
+	height: 40px;
+	top: 0;
+}
+
+.sidebar input{
+	color: #8c8c8c;
+	left: 0;
+	width: 100%;
+	border-right: none;
+}
+
+.sidebar button{
+	background-color: #3498db;
+	border: 1px solid #3498db;
+	right: 0;
+	color: #FFF;
+	font-size: 1.4em;
+	float: right;
+	line-height: 26px;
+	width: 40px;
+	padding: 0;
+	-webkit-transition: all .25s ease-in;
+	-moz-transition: all .25s ease-in;
+	-ms-transition: all .25s ease-in;
+	-o-transition: all .25s ease-in;
+	transition: all .25s ease-in;
+}
+
+.sidebar button:hover{
+	background-color: #e74c3c;
+	border: 1px solid #e74c3c;
+}
+
+/****************************** News Latter Input Style (End) ******************************/
+
+.footer {
+	background-color: #292929;
+	margin-top: 40px;
+	padding-bottom: 15px;
+}
+
+.footer-up {
+	margin-top: 0;
+	color: #FFF;	
+}
+
+.footer-title {
+	margin-top: 30px;
+}
+
+@media (min-width: 768px){
+	.footer-title {
+		margin-top: 100px;
+	}
+}
+
+.footer-bottom {
+	height: 50px;
+	padding-top: 15px;
+	padding-left: 0;
+	padding-right: 0;
+	margin-bottom: 15px;
+}
+
+.copyright {
+	font-size: 16px;
+	text-align: center;
+}
+
+@media (min-width: 768px){
+	.copyright {
+		text-align: left;
+		margin-top: 8px;
+		font-weight: 600;
+		font-size: 16px;
+	}
+}
+
+.media-social{
+	margin-top: 5px;
+	text-align: center;
+}
+
+@media (min-width: 768px){
+	.media-social {
+		text-align: right;
+		font-weight: 600;
+		margin-top: 0;
+		padding-right: 0;
+	}
+}
+
+.sidebar {
+	padding-bottom: 15px;
+}
+
+.contact-detail {
+	padding-right: 30px;
+}
+
+.media-facebook{
+	font-size: 30px;
+	background-color:aqua; 
+	height: 50px;
+	width: 50px;
+	border-radius: 20px;
+}
+
+address {
+	margin-bottom: 0;
+}
+
+/****************************** Social Media (Start) ******************************/
+
+
+.social li {
+		display: inline;
+		margin-left: 10px;
+		list-style: none;
+}
+
+@media (min-width: 768px){
+	.social li {
+		margin-left: 30px;
+		margin-right: 0;
+	}
+}
+		.social li .icon {
+			display: inline-block;
+			width: 30px;
+			height: 30px;
+			text-align: center;
+			font-size: 30px;
+			color:#E5E5E5;
+		}
+
+		.social li .icon:hover {color:#000;}
+
+
+
+			.team-wrapper .team-member .hover .social .icon.tw {background-position: center 0px;}
+			.team-wrapper .team-member .hover .social .icon.di {background-position: right 0px;}
+			.team-wrapper .team-member .hover .social .icon.fb:hover {background-position: 0px -24px;}
+			.team-wrapper .team-member .hover .social .icon.tw:hover {background-position: center -24px;}
+			.team-wrapper .team-member .hover .social .icon.di:hover {background-position: right -24px;}
+
+/****************************** Social Media (End) ******************************/
