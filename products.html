@@ -3,14 +3,15 @@
 <head>
 	<title>AGUA | Products</title>
 	<meta charset="utf-8"/>
-	<meta name="viewport" content="width=460, initial-scale=.7"/>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<meta name="viewport" content="width=460, initial-scale=.7" />
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="jquery/1.11.3/jquery.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
-	<script src="js/smoothscroll.js"></script>
 </head>
 <body>
 
@@ -24,25 +25,27 @@
 					   <span class="icon-bar"></span>
 					   <span class="icon-bar"></span> 
 				  </button>
-					<a class="navbar-brand" href="index.html">AGUA</a>
+					<a class="navbar-brand" href="index.html">
+						<img class="logo-image2" src="images/logo-line.png" alt="logo">
+					</a>
 			  </div>
 			   <nav class="collapse navbar-collapse" id="myNavbar">
 			   	<ul class="nav navbar-nav navbar-right">
-			      	<li class="active"><a href="#">Home</a></li>
-			      	<li><a href="#">Products</a></li>
-			      	<li><a href="#">Benefits</a></li>
-			      	<li><a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us <span class="caret"></span></a>
-			      		<ul class="dropdown-menu">
-			      			<li><a href="#">Heritage</a></li>
-				      		<li><a href="#">Profile</a></li>
-				      		<li><a href="#">Vision &amp; Mission</a></li>
-				      		<li><a href="#">Where are We</a></li>
-			      		</ul>
-			      	</li>
-			      	<li><a href="#">Contact Us</a></li>
-			      	<li><a href="#">Souvenirs</a></li>
-			      </ul>
-			    </nav>
+			      <li><a href="index.html">Home</a></li>
+			     	<li class="active"><a href="products.html">Products</a></li>
+			     	<li><a href="#">Benefits</a></li>
+			     	<li><a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="10" data-close-others="false" href="#">About Us <span class="caret"></span></a>
+			     		<ul class="dropdown-menu">
+			     			<li><a href="heritage.html">Heritage</a></li>
+				     		<li><a href="#">Profile</a></li>
+				     		<li><a href="#">Vision &amp; Mission</a></li>
+				     		<li><a href="waw.html">Where are We</a></li>
+			     		</ul>
+			     	</li>
+			     	<li><a href="contactus.html">Contact Us</a></li>
+			    	<li><a href="souvenirs.html">Souvenirs</a></li>
+			    </ul>
+			   </nav>
 			</div>
 		</div>
 
@@ -60,7 +63,7 @@
 		</div>
 		<div class="row">
 			<div class="container text-left">
-				<p class="text-left">
+				<p class="p-desc text-left">
 					AGUA comes from selected water springs which represent some of the
 					best natural water springs in Indonesia. AGUA hygienically packaged
 					into different sizes of plastic bottle; 330 ml, 600 ml, 750 ml and
@@ -89,13 +92,13 @@
 		<div class="footer-up">
 			<div class="container">
 				<div class="col-md-3">
-					<h1 class="footer-title">
-						AGUA
-					</h1>
+					<div class="footer-logo">
+						<img class="footer-logo-image footer-logo" src="images/logo-line.png" alt="logo">
+					</div>
 				</div>
 				<div class="col-md-3 text-left sidebar">
 					<div class="sidebar-title"><h3 class="title">NEWSLETTER</h3></div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis risus at mauris vestibulum lacinia vitae sed.</p>
+					<p>Wanna now more information about us? Or wish to to get newest information about our products? Just enter your email below to subscribe.</p>
 					<!-- <form class="form-inline news-letter" role="form">
 						<div class="form-group">
 							<input type="email" class="form-control col-xs-2" id="email"><button type="submit" class="btn btn-default">Subs</button>
@@ -109,7 +112,12 @@
 
 				</div>
 				<div class="col-md-3 text-left sidebar">
-					<div class="sidebar-title"><h3 class="title">LATEST TWEET</h3></div>
+					<div class="sidebar-title">
+						<h3 class="title">LATEST TWEET</h3>
+					</div>
+						<a class="twitter-timeline" href="https://twitter.com/sehatAQUA" data-widget-id="607606929951584256">Tweets by @sehatAQUA</a>	<script>
+								!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+							</script>
 				</div>
 				<div class="col-md-3 text-right sidebar contact-detail">
 					<div class="row">
@@ -132,7 +140,7 @@
 		</div>
 	</footer>
 		<div class="container footer-bottom">
-			<div class="col-md-7 col-xs-12 pull-left copyright">Copyright &copy; by <a href="#">AGUA Water Mineral</a>, All Rights Reserved.</div>
+			<div class="col-md-7 col-xs-12 pull-left copyright">Copyright &copy; 2015 by <a href="#">AGUA Water Mineral</a>, All Rights Reserved.</div>
 			<div class="col-md-5 col-xs-12 pull-right media-social">
 				<ul class="social">
           <li><a href="#" class="icon tw"><i class="fa fa-twitter"></i></a></li>
@@ -142,6 +150,10 @@
         </ul>
 			</div>
 		</div>
-
 </body>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+	<script src="js/myJS.js"></script>
+	<link rel="stylesheet" type="text/css" href="owl-carousel/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="owl-carousel/owl.theme.css">
+	<script src="owl-carousel/owl.carousel.js"></script>
 </html>
