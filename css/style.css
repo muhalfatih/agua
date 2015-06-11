@@ -345,16 +345,36 @@ h3 {
 	color: #AAA0E5;
 }
 
+@media (max-width: 1000px) {
+	.souvenirs-title {
+		font-size: 20px;
+	}
+}
+
 .souvenirs-price {
 	font-family: 'Montserrat', sans-serif;
 }
 
-.so-prod {
-	height: 300px;
+@media (max-width: 1000px) {
+	.souvenirs-price {
+		font-size: 20px;
+	}
 }
 
-.so-prod img {
-	height: 280px;
+.so-prod {
+		margin-bottom: 30px;
+	}
+
+@media (min-width: 1000px) {
+	.img-souvenirs {
+		height: 280px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.img-souvenirs {
+		height: 120px;
+	}
 }
 
 .section-backg {
