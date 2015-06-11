@@ -377,6 +377,10 @@ h3 {
 	}
 }
 
+.form-control {
+	border-radius: 0;
+}
+
 .section-backg {
 	background: url(../images/bg-testimonials.png) #6C54FF top center repeat;
 	padding-top: 40px;
