@@ -365,7 +365,6 @@ h3 {
 }
 
 .section-team {
-	background: url(../images/peoples.jpg) bottom no-repeat fixed;
 	padding-top: 40px;
 	padding-bottom: 20px;
 	color: #fff;
@@ -401,7 +400,7 @@ h3 {
 
 @media (max-width: 1000px) {
 	.img-banner {
-		height: 10px;
+		height: 150px;
 	}
 }
 
